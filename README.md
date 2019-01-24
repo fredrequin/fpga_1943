@@ -115,3 +115,13 @@ Verilator testbench configuration file.
 #### conv_gfx/
 
 Quick and dirty arcade ROM graphics converter.
+
+Some snapshots :-)
+------------------
+
+Ranking :
+
+![Ranking](./snapshots/snapshot0333.png)
+
+Atract mode :
+![Atract mode](./snapshots/snapshot0907.png)
