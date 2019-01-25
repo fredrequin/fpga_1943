@@ -6,18 +6,20 @@ FPGA_1943 re-implements the famous arcade game from CAPCOM : 1943, the battle of
 
 Since the hardware is very close, games like Commando, Black Tiger, Gun Smoke or Side Arms could be supported.
 
-Features and Typical Applications
----------------------------------
+Features
+--------
 
-- Use the TV80 Z80 core
-- Very small implementation
+- Uses the TV80 Z80 core.
+- Very small implementation.
 - Run out of one 16-bit SDRAM running at 72 MHz.
 - One background 32x32 tile layer (16 colors).
 - One foreground 32x32 tile layer (16 colors).
 - One 8x8 character layer (4 colors).
 - One sprite generator that handles 128 sprites (16 colors).
-- Two upscaling schemes : Scale2X or CRT grid with blooming
-- Sound is missing
+- Security chip is implemented.
+- Two upscaling schemes : Scale2X or CRT grid with blooming (see the snapshots).
+- The ROMs are not included with the core, graphics ones must be translated in a more core friendly format.
+- Sound is missing :-(
 
 Files in this Repository
 ------------------------
@@ -124,4 +126,5 @@ Ranking :
 ![Ranking](./snapshots/snapshot0333.png)
 
 Atract mode :
+
 ![Atract mode](./snapshots/snapshot0907.png)
